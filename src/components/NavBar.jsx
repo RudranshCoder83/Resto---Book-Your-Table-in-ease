@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { navLinks } from '../data/data'
 import { Menu as MenuIcon, XIcon } from 'lucide-react' // Ya aapka custom icon import
 import { useEffect } from 'react';
