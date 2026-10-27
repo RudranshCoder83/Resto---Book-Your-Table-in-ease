@@ -4,6 +4,7 @@ import HeroSection from './section/HeroSection';
 import About  from './section/About';
 import Stats from './section/Stats';
 import Dishes from './section/Dishes';
+import Featured from './section/Featured';
 
 const App = ()=>{
   return(
@@ -13,6 +14,7 @@ const App = ()=>{
       <About />
       <Stats/>
       <Dishes/>
+      <Featured/>
     </>
   )
 }
