@@ -8,6 +8,7 @@ import Featured from './section/Featured';
 import BookingProcess from './section/BookingProcess';
 import Timing from './section/Timing';
 import TestimonialSection from './section/TestimonialSection';
+import FAQs from './section/FAQs';
 
 const App = ()=>{
   return(
@@ -21,6 +22,7 @@ const App = ()=>{
       <BookingProcess/>
       <Timing/>
       <TestimonialSection/>
+      <FAQs/>
     </>
   )
 }
