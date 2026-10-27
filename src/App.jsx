@@ -6,6 +6,7 @@ import Stats from './section/Stats';
 import Dishes from './section/Dishes';
 import Featured from './section/Featured';
 import BookingProcess from './section/BookingProcess';
+import Timing from './section/Timing';
 
 const App = ()=>{
   return(
@@ -17,6 +18,7 @@ const App = ()=>{
       <Dishes/>
       <Featured/>
       <BookingProcess/>
+      <Timing/>
     </>
   )
 }
