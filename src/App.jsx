@@ -9,6 +9,7 @@ import BookingProcess from './section/BookingProcess';
 import Timing from './section/Timing';
 import TestimonialSection from './section/TestimonialSection';
 import FAQs from './section/FAQs';
+import CTA from './section/CTA';
 
 const App = ()=>{
   return(
@@ -23,6 +24,7 @@ const App = ()=>{
       <Timing/>
       <TestimonialSection/>
       <FAQs/>
+      <CTA/>
     </>
   )
 }
