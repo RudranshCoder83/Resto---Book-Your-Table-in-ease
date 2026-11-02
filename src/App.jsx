@@ -10,10 +10,13 @@ import Timing from './section/Timing';
 import TestimonialSection from './section/TestimonialSection';
 import FAQs from './section/FAQs';
 import CTA from './section/CTA';
+import Footer from './components/Footer';
+import LenisScroll from './components/LenisScroll';
 
 const App = ()=>{
   return(
     <>
+      <LenisScroll/>
       <NavBar />
       <HeroSection/>
       <About />
@@ -25,6 +28,7 @@ const App = ()=>{
       <TestimonialSection/>
       <FAQs/>
       <CTA/>
+      <Footer/>
     </>
   )
 }
